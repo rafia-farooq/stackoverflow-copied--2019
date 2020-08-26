@@ -1,0 +1,603 @@
+body{
+    text-align: center;
+    margin: 100;
+    min-width: auto;
+    
+  }
+  
+  h1{
+      font-size: 4em;
+  }
+  p{
+    line-height: 23px;
+  }
+  
+           /*-----nav bar-----*/ 
+  nav{
+     background-color: white;
+     border-top: 3px #f48024 solid;
+     position: sticky;
+     top: 0;
+     
+  }
+  
+  .nav > ul{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .nav li{
+    list-style-type: none;
+          
+  }
+  
+  .nav li:hover{
+    background-color: #DCDCDC;
+    border-radius: 25px;
+    height: 25px;
+    width: 90px;
+  }
+
+
+#search-icon {display:none}
+
+#searchbar { 
+         width: 250px;
+        height: 20px;}
+
+  
+            /*-----roundedge-----*/ 
+  #roundedge{
+    color: white;
+    border-radius: 25px;
+    background-color: #f48024;
+    width: 100px;
+    height: 20px;
+  }
+  
+          /*-----nav links-----*/ 
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+   }
+  
+            /*-----span bold-----*/ 
+  
+  .bold{
+    font-weight: bold;
+  }
+  
+            /*-------buttons----*/
+  #navbutton1{
+    background-color:rgb(135,206,250, 0.4);
+    border:  1px #00BFFF solid;
+    color: dodgerblue;
+    padding: 7px 15px;
+    
+  }
+  #navbutton2{
+    background-color:rgb(100,149,237, 0.7);
+    border:  1px #00BFFF solid;
+    color: white;
+    text-align: center;
+    padding: 7px 15px;  
+  }
+  
+  #button{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #blackbutton{
+    color: black;
+  }
+  #orangebutton{
+    background-color: #f48024;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    
+  }
+  
+  #whitebutton{
+    background-color: white;
+    border: 1px #f48024 solid;
+    color: #f48024;
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  
+  #bluebutton{
+    background-color: midnightblue;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  
+  #greybutton{
+    background-color: rgb(211,211,211, 0.4);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin:5px;
+    font-size: 15px;
+    padding: 5px 20px;
+    transition-duration: 0.4s;
+  }
+  #greybutton:hover{
+    background-color: lightgrey;
+  }
+  
+  #yellowbutton{
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px 10px;
+    font-size: 15px;
+    padding: 5px 20px;
+    transition-duration: 0.4s;
+  }
+  #yellowbutton:hover{
+    background-color: peru;
+  }
+  
+  
+            /*-----header-----*/ 
+  header{
+    background: url("https://img.freepik.com/free-vector/yellow-background-with-dynamic-abstract-shapes_1393-144.jpg?size=626&ext=jpg") bottom no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  main{
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  h2 {
+    font-size: 2rem
+}
+  
+  h3{
+    font-family: serif;
+  }
+  p{
+    font-family: ariel;
+    font-size: 1rem;
+    
+  }
+  
+  main a{
+    text-decoration: none;
+    color: #f48024;
+  }
+  
+  
+  section{
+     padding-bottom: 2rem;
+  }
+  
+       /*-----first part icons---*/
+  
+  #icon-one{
+    display: flex;
+     padding: 4rem 6rem;   
+  }
+  
+  #icon-one div{
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  #icon-one div:hover{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  
+      /*------second part-----*/
+  
+  #snow-white-background{
+    background-color: snow;
+    padding: 4rem 4rem;
+  }
+  
+  .icon-two{
+    display: flex;
+    
+  }
+  
+  .icon-two div{
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+  }
+  
+  
+       /*-----Third part----*/
+  
+  #blue-background{
+    background-color: rgb(25,25,112, 0.9);
+    color: white;
+     
+  }
+
+.blue-section-padding{
+    padding: 4rem 10rem;
+}
+  
+.icon-three{
+    display: flex; 
+    justify-content: center;    
+ }
+     
+          /*----differing sizes of boxes----*/
+#small{
+  height: 400px;
+}
+#larger{
+  height: 500px;
+}
+#largest{
+  height: 600px;
+}
+  
+  .icon-three h3{
+    color: midnightblue;
+    font-size: 25px;
+  }
+  
+  .icon-three p, ul{
+    color: black;
+  }
+  
+  #blue-icon{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .large{
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+  }
+  
+  
+  .icon-three div{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    
+  }
+  
+  .blue-list{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 12px;
+    text-align: left;
+    line-height: 30px;
+         
+  }
+  
+  .blue-list li:before{
+    content: '✓' ;
+    padding: 10px;
+     
+  }
+  
+  #blue-background div:last-child{
+    background-color:rgb(25,25,112, 0.9); 
+    border: 1px white solid;
+    padding: 10px;
+  }
+  #blue-background div:last-child h3{
+    color: white;
+  }
+  #blue-background div:last-child p{
+    color: white;
+  }
+  #blue-background div:last-child li{
+    color: white;
+  }
+  
+  #blue-list-white{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 12px;
+    text-align: left;
+    line-height: 30px;
+  }
+  #blue-list-white li:before{
+    content: '✓' ;
+    padding: 10px;
+  }
+  
+        /*----fourth part----*/
+  
+  .icon-four{
+    display: flex;
+           
+  }
+  
+  
+  .icon-four div{
+    text-align: left;
+    display: block;
+    margin: auto;
+    width: 500px;
+    
+  }
+  
+  
+      /*----fifth part----*/
+  
+.icon-five{
+  padding-bottom: 6rem;
+}
+
+.icon-five h2{
+   padding: 60px 0;
+   }
+
+.icon-five div{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 25px;
+    
+   }
+  
+      /*-----------Grids----------*/
+  
+        /*-------Grid-1-------*/
+  
+
+   .icon-five section{
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;
+    grid-gap: 20px 50px;
+    justify-content: center;
+    
+  }
+  
+  .middle{
+    grid-area: 1 / 2 / 4/3;
+    align-self: center;
+    height: 300px;
+    
+  }
+#vertical-align-text {
+  margin: 130px 0;
+}
+  
+  
+           
+     /*-------Grid-2-------*/
+  
+  .icon-six section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap:15px;
+      
+  }
+  
+  
+        /*-----sixth part-----*/
+  
+  .icon-six {
+    margin: 5rem 1.5rem;
+  }
+
+
+.icon-six h2{
+    padding: 2rem 0;
+  margin-bottom: 50px;
+  }
+  
+  .icon-six section p{
+    font-size: 15px;
+    text-align: left;
+}
+  .icon-six h3{
+    text-align: left;
+  }
+  
+        /*-----seventh part-----*/
+  
+  .icon-seven{
+    background-color: rgb(135,206,250, 0.2);
+    padding-bottom: 8em;
+  }
+.icon-seven h2{
+  padding-left: 55px;
+}
+  
+  .left-align{
+    text-align: left;
+    padding-top: 150px;
+  }
+  
+  .icon-seven ul{
+    display: flex;
+    list-style-type: none;
+    padding-right: 40px;
+    
+  }
+  
+  .icon-seven li{
+    text-align: left;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px ;
+     
+  }
+  
+  
+        /*-----Footer-----*/
+  
+  .footer {
+    background-color: rgb(0,0,0, 0.8);
+    padding: 20px 10px 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+  }
+  
+  .footer div{
+    text-align: left;
+     flex: 1 1 0;
+  }
+  
+  .footer div ul{
+    margin: 0;
+    padding: 0;
+        
+  }
+  
+  .footer div h5{
+    color: #bbc0c4;
+    font: inherit;
+   
+  }
+  
+  .footer div li{
+    list-style-type: none;
+    
+    
+     
+  }
+  
+  .footer a, h6{
+    text-decoration: none;
+    color:#6a737c;
+    font: inherit;
+    line-height: 25px;
+      
+  }
+  
+  .footer section ul{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 20px;
+    
+  }
+  .footer section li{
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 0;
+    
+  }
+    
+  .footer section h6{
+    font-size: 12px;
+    margin-top: 100px;
+      
+  }
+  
+  
+        /*--------images-------*/
+  
+  
+  #image-part-one{
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+      
+  }
+  
+  #image-part-two{
+    width: 76px;
+    float: left;
+    display: block;  
+     
+  }
+  
+  #image-part-four{
+    width: 76px;
+    display: block;
+     
+  }
+  
+  #image-part-seven{
+    width: 50px;
+    float: left;
+    display: block;
+    padding-right: 15px;
+     
+  }
+  
+  
+       /*------Media Queries-----*/
+
+
+              /*phones*/
+  
+@media (max-width: 700px){
+  
+  #searchbar {display: none}
+  #search-icon {display: block}  
+  
+  #orangebutton { font-size: 13px;}
+  
+  .hide { display: none;}      /*_____hide content______*/
+  .nav li{ padding: 0 5px;}
+  
+  
+  #icon-one { flex-direction: column;}
+  .icon-two  {flex-direction: column;}
+  
+  
+  .icon-three  {flex-direction: column;}
+  
+  .icon-three div {width: 300px;
+                    align-self: center;}
+  .icon-three #small {height: 450px; width:270px}
+  .icon-three #larger {height: 450px; width:310px}
+  .icon-three #largest {height: 450px; width:370px}
+  .blue-section-padding {padding: 1.5rem 1rem}
+  
+  
+  #snow-white-background { padding: 1rem;}
+   .icon-four div {width: auto;
+                   padding-right: 9px;}
+  .icon-four h2 {font-size: 1.5em}
+  .icon-four p {font-size: 0.8em}
+ 
+  
+  .icon-six section{  display: flex;
+                     flex-direction: rows;
+                      flex-wrap: wrap;
+                      width: 200px;
+                      margin: 0 auto;}
+  .icon-six div { padding-bottom: 2em}
+  
+  
+  .icon-seven h2{text-align: center;}
+  .icon-seven ul{ flex-direction: column;
+                flex-wrap: wrap;
+                                 }
+  .icon-seven li {height: 40px;}
+                  
+  .icon-seven #orangebutton {margin-top: 40px;}
+  
+    
+  
+}
+  
